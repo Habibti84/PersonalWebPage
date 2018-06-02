@@ -1,0 +1,48 @@
+* {
+  font-family: arial;
+}
+
+img {
+
+}
+
+nav ul {
+  float: left;
+  width: 100%;
+  background-color: #eecdbc;
+  padding: 10px 0;
+
+
+}
+
+nav ul li {
+  float: left;
+  list-style: none;
+}
+
+nav ul li:last-child {
+  float: right;
+}
+
+
+a {
+  font-size: 1.4em;
+  text-decoration: none;
+  color: #404040;
+  padding: 20px 35px;
+}
+
+a:hover {
+  background-color: #9dcad0;
+}
+
+/* as dark color: #295a68 */
+
+
+@media screen and (max-width: 500px) {
+
+img {
+  width: 100%;
+}
+
+}
